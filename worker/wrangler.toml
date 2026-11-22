@@ -1,0 +1,11 @@
+name = "cfx-licensing"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding       = "DB"
+database_name = "cfx-licensing"
+database_id   = "YOUR_D1_ID_HERE"
+
+[vars]
+ADMIN_KEY = "replace_with_a_long_random_string"
